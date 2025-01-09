@@ -4,6 +4,7 @@ This project aims to analyze and visualize data from Hypixel player statistics. 
 
 ## Files Included
 Data Files:
+
 top_250_players.txt - Contains the usernames of the top 250 players in Hypixel based on selected criteria.
 
 random_players.txt - Includes usernames of randomly selected players for comparison purposes.
@@ -14,7 +15,10 @@ final_all_players.txt - A text version of the consolidated dataset for quick ref
 
 final_players_mode - the actual data used for modeling, visualization, and analysis
 
-## Notebooks
+
+
+Notebooks:
+
 grabbing_hypixel_data.ipynb - Code to scrape or process raw Hypixel data and prepare it for analysis, not needed due to presence of "final_players_mode.csv"
 
 model-code-and-visualization.ipynb - Contains code for building models and visualizing the insights derived from the player data.
